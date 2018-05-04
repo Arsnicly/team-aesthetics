@@ -3,6 +3,7 @@ from pprint import pprint
 import requests
 
 search = input('What do you want to search for: ')
+print ("")
 
 
 
@@ -16,13 +17,19 @@ f = requests.get(link)
 json_string = (f.text)[31:-2]
 
 
+
+
+
+
 #text_file = open("Output.json", "w", encode = 'utf-8')
+
 text_file = open("Output.json", "w")
 text_file.write(json_string)
 text_file.close()
 
 
 #data = json.load(open('Output.json', encode = 'utf-8'))
+
 data = json.load(open('Output.json'))
 
 #pprint(data)
@@ -52,11 +59,13 @@ for x in range(10):
         if ((data["items"][x]["volumeInfo"]["industryIdentifiers"][0]["type"]) == "ISBN_13"):
             isbn_type = data["items"][x]["volumeInfo"]["industryIdentifiers"][0]["type"]
             isbn_num = data["items"][x]["volumeInfo"]["industryIdentifiers"][0]["identifier"]
-        else:
+        elif ((data["items"][x]["volumeInfo"]["industryIdentifiers"][0]["type"]) == "ISBN_10"):
             isbn_type = data["items"][x]["volumeInfo"]["industryIdentifiers"][1]["type"]
             isbn_num = data["items"][x]["volumeInfo"]["industryIdentifiers"][1]["identifier"]
-    except KeyError:
-        pass
+        else:
+            isbn_num = "NO ISBN NUMBER"
+    except (KeyError):
+        isbn_num = 'this is a bug';
     
     #AUTHOR EXTRACT
     try:
@@ -80,7 +89,10 @@ for x in range(10):
     title = data["items"][x]["volumeInfo"]["title"]
 
     #changes formatting of data that is in the incorrect format
-    isbn_num_clean = isbn_num[:3] + '-' + isbn_num[3:]
+    if isbn_num != "NO ISBN NUMBER":
+        isbn_num_clean = isbn_num[:3] + '-' + isbn_num[3:]
+    else:
+        isbn_num_clean = isbn_num
     if (len(date) == 4):
         date_flipped = date
     elif (len(date) == 7):
