@@ -1,0 +1,325 @@
+{
+   "Header": {
+      "FromCompany": "Australian Publishers Association",
+      "SentDate": "20180518",
+      "FromEmail": "titlepage@publishers.asn.au",
+      "MessageNote": "This data is copyright to TitlePage. TitlePage makes no guarantee of the accuracy or the timeliness of production. It is supplied for your exclusive use as our customer and is only to be used for advising on the pricing and availability of publications (Authorised Purpose). You must not charge a fee for this service. TitlePage and its content may not be used for any other purpose. While it may be copied once for the authorised purpose, written permission from TitlePage must be obtained for any other use. If you were not an intended recipient, you must notify the sender and delete all copies."
+   },
+   "Product": [
+      {
+         "RecordReference": "71-9781458640659",
+         "NotificationType": "03",
+         "ProductIdentifier": [
+            {
+               "ProductIDType": "03",
+               "IDValue": "9781458640659"
+            },
+            {
+               "ProductIDType": "15",
+               "IDValue": "9781458640659"
+            }
+         ],
+         "ProductForm": "BC",
+         "ProductFormDetail": "B305",
+         "Title": {
+            "TitleType": "01",
+            "TitleText": "22d A Frog's Life"
+         },
+         "Website": {
+            "WebsiteLink": "http://www.macmillan.com.au/primary/onix/isbn/9781458640659"
+         },
+         "Contributor": {
+            "SequenceNumber": "1",
+            "ContributorRole": "A01",
+            "PersonNameInverted": "MP1 - MEA PRIMARY"
+         },
+         "EditionNumber": "1",
+         "BICMainSubject": "YQC",
+         "BICVersion": "2.1",
+         "Subject": {
+            "SubjectSchemeIdentifier": "12",
+            "SubjectCode": "YQC"
+         },
+         "AudienceCode": "04",
+         "MediaFile": {
+            "MediaFileTypeCode": "04",
+            "MediaFileLinkTypeCode": "01",
+            "MediaFileLink": "https://app.titlepage.com/docs/web/TitlePage/macmillan-science-and-education-schools/2013/March/22d-a-frogs-life.jpeg"
+         },
+         "Imprint": {
+            "ImprintName": "Springboard Connect"
+         },
+         "Publisher": {
+            "PublishingRole": "01",
+            "PublisherName": "MEA Primary"
+         },
+         "PublishingStatus": "04",
+         "PublicationDate": "20130315",
+         "YearFirstPublished": "2013",
+         "SalesRights": {
+            "SalesRightsType": "01",
+            "RightsCountry": [
+               "NZ",
+               "AU"
+            ]
+         },
+         "Measure": [
+            {
+               "MeasureTypeCode": "01",
+               "Measurement": "199",
+               "MeasureUnitCode": "mm"
+            },
+            {
+               "MeasureTypeCode": "02",
+               "Measurement": "138",
+               "MeasureUnitCode": "mm"
+            },
+            {
+               "MeasureTypeCode": "03",
+               "Measurement": "3",
+               "MeasureUnitCode": "mm"
+            },
+            {
+               "MeasureTypeCode": "08",
+               "Measurement": "60",
+               "MeasureUnitCode": "gr"
+            }
+         ],
+         "SupplyDetail": {
+            "SupplierName": "United Book Distributors",
+            "SupplierRole": "02",
+            "SupplyToCountry": [
+               "NZ",
+               "AU"
+            ],
+            "ProductAvailability": "21",
+            "Stock": {
+               "OnHand": "322",
+               "OnOrder": "0"
+            },
+            "PackQuantity": "300",
+            "Price": [
+               {
+                  "PriceTypeCode": "02",
+                  "PriceAmount": "10.50",
+                  "CurrencyCode": "AUD",
+                  "CountryCode": "AU"
+               },
+               {
+                  "PriceTypeCode": "02",
+                  "PriceAmount": "10.35",
+                  "CurrencyCode": "NZD",
+                  "CountryCode": "NZ"
+               }
+            ]
+         },
+         "MarketRepresentation": {
+            "AgentName": "MP1 - MEA PRIMARY",
+            "AgentRole": "07",
+            "MarketCountry": [
+               "AU",
+               "NZ"
+            ],
+            "MarketPublishingStatus": "04",
+            "MarketDate": {
+               "MarketDateRole": "01",
+               "Date": "20130315"
+            }
+         }
+      },
+      {
+         "RecordReference": "639-9781491480335",
+         "NotificationType": "03",
+         "ProductIdentifier": [
+            {
+               "ProductIDType": "03",
+               "IDValue": "9781491480335"
+            },
+            {
+               "ProductIDType": "15",
+               "IDValue": "9781491480335"
+            }
+         ],
+         "ProductForm": "BB",
+         "Series": {
+            "TitleOfSeries": "ABCs of Endangered Amphibians"
+         },
+         "Title": {
+            "TitleType": "01",
+            "TitleText": "ABCs of Endangered Amphibians: F Is for Frog"
+         },
+         "Website": {
+            "WebsiteLink": "http://www.raintreeaust.com.au/books/?isbn=9781491480335"
+         },
+         "Contributor": {
+            "ContributorRole": "A01",
+            "PersonName": "L J Amstutz",
+            "PersonNameInverted": "J Amstutz, L",
+            "KeyNames": "J Amstutz"
+         },
+         "EditionNumber": "1",
+         "NumberOfPages": "32",
+         "BICMainSubject": "YX",
+         "Subject": {
+            "SubjectSchemeIdentifier": "12",
+            "SubjectCode": "YXZG"
+         },
+         "OtherText": {
+            "TextTypeCode": "01",
+            "TextFormat": "02",
+            "Text": "<P>Inside this book is a whole alphabet of awesome amphibians  amphibians that are in danger of disappearing from our world forever Letter by letter find out what makes these amphibians so special and why they need our help<\/P>"
+         },
+         "MediaFile": {
+            "MediaFileTypeCode": "06",
+            "MediaFileLinkTypeCode": "01",
+            "MediaFileLink": "https://app.titlepage.com/docs/web/TitlePage/raintree-australia/2017/February/abcs-of-endangered-amphibians-f-is-for-frog.jpeg"
+         },
+         "Imprint": {
+            "ImprintName": "Capstone"
+         },
+         "Publisher": {
+            "PublishingRole": "01",
+            "PublisherName": "Capstone"
+         },
+         "PublishingStatus": "04",
+         "PublicationDate": "20170201",
+         "SalesRights": {
+            "SalesRightsType": "01",
+            "RightsCountry": "AU"
+         },
+         "Measure": [
+            {
+               "MeasureTypeCode": "01",
+               "Measurement": "265",
+               "MeasureUnitCode": "mm"
+            },
+            {
+               "MeasureTypeCode": "02",
+               "Measurement": "240",
+               "MeasureUnitCode": "mm"
+            }
+         ],
+         "SupplyDetail": {
+            "SupplierName": "Raintree Australia",
+            "SupplierRole": "06",
+            "SupplyToCountry": "AU",
+            "ProductAvailability": "20",
+            "Stock": {
+               "OnHand": "41",
+               "OnOrder": "0"
+            },
+            "Price": {
+               "PriceTypeCode": "02",
+               "PriceAmount": "29.99",
+               "CurrencyCode": "AUD",
+               "CountryCode": "AU"
+            }
+         }
+      },
+      {
+         "RecordReference": "94-9781942603450",
+         "NotificationType": "03",
+         "ProductIdentifier": {
+            "ProductIDType": "15",
+            "IDValue": "9781942603450"
+         },
+         "ProductForm": "BC",
+         "ProductFormDetail": "B221",
+         "Title": {
+            "TitleType": "01",
+            "TitleText": "A Frog Named Rabbit",
+            "TitlePrefix": "A",
+            "TitleWithoutPrefix": "Frog Named Rabbit"
+         },
+         "Contributor": {
+            "SequenceNumber": "1",
+            "ContributorRole": "A01",
+            "PersonName": "Joyce Norman",
+            "PersonNameInverted": "Norman, Joyce",
+            "KeyNames": "Norman"
+         },
+         "Extent": {
+            "ExtentType": "06",
+            "ExtentValue": "32",
+            "ExtentUnit": "03"
+         },
+         "BICMainSubject": "YFP",
+         "OtherText": {
+            "TextTypeCode": "03",
+            "Text": "<div>Our story begins in a deep, dark forest. A tiny green frog named Reginald lives there. Mama and Papa Frog loved little Reginald, but worried about him for he had a very bad habit of not paying attention. When they gave him any small little chore, they would soon look around and there he&#8217;d be, sitting on a low branch or lily pad, staring into space. The teacher down at the pond school had told his parents that Reginald never seemed to listen when she taught the frog class. <br><\/div>"
+         },
+         "Imprint": {
+            "ImprintName": "Heritage Builders"
+         },
+         "Publisher": {
+            "PublishingRole": "01",
+            "PublisherName": "Heritage Builders"
+         },
+         "PublishingStatus": "01",
+         "PublicationDate": "20180410",
+         "SalesRights": {
+            "SalesRightsType": "01",
+            "RightsCountry": [
+               "NZ",
+               "AU"
+            ]
+         },
+         "Measure": [
+            {
+               "MeasureTypeCode": "02",
+               "Measurement": "140",
+               "MeasureUnitCode": "mm"
+            },
+            {
+               "MeasureTypeCode": "01",
+               "Measurement": "216",
+               "MeasureUnitCode": "mm"
+            }
+         ],
+         "SupplyDetail": [
+            {
+               "SupplierName": "NewSouth Books",
+               "SupplierRole": "02",
+               "SupplyToCountry": "AU",
+               "ProductAvailability": "01",
+               "Stock": {
+                  "OnHand": "0",
+                  "OnOrder": "0"
+               },
+               "Price": {
+                  "PriceTypeCode": "02",
+                  "PriceAmount": "12.99",
+                  "CurrencyCode": "AUD",
+                  "CountryCode": "AU"
+               }
+            },
+            {
+               "SupplierName": "NewSouth Books",
+               "SupplierRole": "02",
+               "SupplyToCountry": "NZ",
+               "ProductAvailability": "01",
+               "Stock": {
+                  "OnHand": "0",
+                  "OnOrder": "0"
+               },
+               "Price": {
+                  "PriceTypeCode": "02",
+                  "PriceAmount": "16.99",
+                  "CurrencyCode": "NZD",
+                  "CountryCode": "NZ"
+               }
+            }
+         ],
+         "MarketRepresentation": {
+            "AgentName": "NewSouth Books",
+            "AgentRole": "05",
+            "MarketCountry": "AU",
+            "MarketPublishingStatus": "01",
+            "MarketDate": {
+               "MarketDateRole": "01",
+               "Date": "20180410"
+            }
+         }
+      }
+   ]
+}
